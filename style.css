@@ -5,7 +5,7 @@
 }
 
 header {
-  padding: 50px;
+  height: 50px;
   background-color: #FF9A4B;
 }
 
@@ -64,4 +64,25 @@ main {
 footer {
   height: 50px;
   background-color:#aaa;
+}
+
+@media screen and (max-width:768px) {
+  header {
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+
+  .step-box {
+    width: 90%;
+    margin: 0% 5%;
+  }
+
+  .step-box:nth-child(2) {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 }
